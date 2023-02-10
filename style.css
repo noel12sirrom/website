@@ -1,0 +1,120 @@
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 70px;
+    position: relative;
+}
+
+.container {
+    margin-left: -35px;
+    list-style: none;
+    border-radius: 30px;
+    padding: 11px;
+    background:palevioletred;
+    border-width: 3px;
+    border-color: greenyellow;
+    border-style: solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: palegoldenrod;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: lightpink;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(117, 255, 255);
+    position: absolute;
+    top: -10px;
+    width: 0%;
+}
+
+nav a:hover::before {
+    width: 100%;
+    transition: all ease-in-out 250ms;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+/*body {
+    background-image: url(../Sinkhole/purplestuff.jpg); 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    background-repeat: no-repeat;  
+}*/
+
+.WelcomeToSinkhole {
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+.WelcomeToSinkhole .smlheading {
+    color: lightgray;
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+
+.WelcomeToSinkhole .sinkhole-pink {
+    color: palevioletred; 
+    margin-top: -20px;
+    padding-left: 80px;
+    font-size: 55px;
+    }
+
+.WelcomeToSinkhole .sinkhole-green{
+    color: greenyellow; 
+    margin-top: -97px;
+    padding-left: 80px;
+    font-family: Georgias;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.motto {
+    color: lightgray;
+    margin-top: -20px;
+    padding-left: 80px;
+}
+
+.finest {
+    color: palevioletred;
+    font-size: 28px;
+}
+
+.CvlEngnrng {
+    color: greenyellow;
+    font-size: 28px;
+}
+
+.BOX1 {
+    background: #ff6666;
+    margin-right: 460px;
+    margin-left: 13px;
+    border: hotpink;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 12px;
+    padding: 13px;
+    
+}
